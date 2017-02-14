@@ -2,4 +2,4 @@ language: cpp
 compiler:
   - gcc
 os: windows
-install: compile.sh
+install: ./compile.sh
