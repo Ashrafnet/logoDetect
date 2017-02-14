@@ -1,4 +1,4 @@
 language: cpp
 os: windows
-script: gcc `pkg-config --cflags opencv` `pkg-config --libs opencv` -o logo-detect main.cpp
+script: pkg-config --cflags opencv
 
